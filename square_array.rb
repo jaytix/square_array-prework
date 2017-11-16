@@ -1,6 +1,8 @@
 def square_array(array)
+  arr = []
   array.each do |i|
-    i ** i
-    binding.pry
+    sqr = i ** i
+    arr.push(sqr)
   end
+  return arr
 end
